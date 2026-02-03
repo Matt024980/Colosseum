@@ -12,7 +12,7 @@ const FighterMatchApp = () => {
   const [fighters] = useState([
     {
       id: 1,
-      name: "Alex Chen",
+      name: "Benard Mugita",
       age: 28,
       weight: "170 lbs",
       weightClass: "Welterweight",
@@ -21,7 +21,7 @@ const FighterMatchApp = () => {
       experience: "5 years",
       record: "12-3-0",
       achievements: ["2023 Regional Champion", "Golden Gloves Finalist"],
-      location: "Los Angeles, CA",
+      location: "Maasai Lodge, Rongai",
       bio: "Looking for skilled sparring partners and competitive bouts. Traditional Muay Thai background with focus on clinch work.",
       availability: "Weekends preferred",
       image: "🥊"
