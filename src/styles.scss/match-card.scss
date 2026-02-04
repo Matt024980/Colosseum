@@ -1,0 +1,47 @@
+.match-card {
+  @include card;
+  padding: 1rem;
+
+  &__header {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 0.75rem;
+
+    .avatar {
+      font-size: 3rem;
+    }
+
+    h3 {
+      font-size: 1.1rem;
+      font-weight: 700;
+    }
+
+    p {
+      font-size: 0.8rem;
+      color: $gray-medium;
+    }
+  }
+
+  &__actions {
+    display: flex;
+    gap: 0.5rem;
+
+    button {
+      flex: 1;
+      padding: 0.7rem;
+      border-radius: $radius-md;
+      border: none;
+      cursor: pointer;
+      font-size: 0.85rem;
+
+      &.message {
+        background: $gray-light;
+      }
+
+      &.book {
+        background: $primary;
+        color: $white;
+      }
+    }
+  }
+}

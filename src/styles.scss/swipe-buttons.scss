@@ -1,0 +1,35 @@
+.swipe-buttons {
+  @include flex-center;
+  gap: 3rem;
+  margin-top: 1.5rem;
+
+  button {
+    width: 72px;
+    height: 72px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.15s ease;
+
+    &:active {
+      transform: scale(0.9);
+    }
+
+    &.pass {
+      background: $gray-light;
+      color: $gray-dark;
+    }
+
+    &.like {
+      background: $primary;
+      color: $white;
+    }
+  }
+}
+
+/* Desktop */
+@media (min-width: 1024px) {
+  .swipe-buttons {
+    gap: 4rem;
+  }
+}
